@@ -25,6 +25,10 @@ TARGET_SCREEN_WIDTH := 1264
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946685746860179.xml
 
+# Fingerprint
+$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/oplus:libudfps_extension.oplus)
+
+
 # LiveDisplay
 $(call soong_config_set_bool,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_AF,true)
 
@@ -46,6 +50,10 @@ PRODUCT_COPY_FILES += \
 
 # Power
 $(call soong_config_set,qtipower,mode_ext_lib,power-ext-oplus)
+
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.oplus
 
 # PowerShare
 PRODUCT_PACKAGES += \
