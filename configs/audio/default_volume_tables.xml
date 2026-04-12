@@ -76,18 +76,18 @@
         <point>100,0</point>
     #else /* OPLUS_BUG_STABILITY */ -->
         <point>1,-7000</point>
-        <point>5,-6200</point>
-        <point>10,-5700</point>
-        <point>15,-5100</point>
-        <point>20,-4500</point>
-        <point>25,-4000</point>
-        <point>30,-3500</point>
-        <point>35,-3100</point>
-        <point>40,-2700</point>
-        <point>45,-2400</point>
-        <point>50,-2100</point>
-        <point>55,-1700</point>
-        <point>60,-1300</point>
+        <point>5,-6300</point>
+        <point>10,-5800</point>
+        <point>15,-5300</point>
+        <point>20,-4800</point>
+        <point>25,-4300</point>
+        <point>30,-3800</point>
+        <point>35,-3400</point>
+        <point>40,-3000</point>
+        <point>45,-2600</point>
+        <point>50,-2200</point>
+        <point>55,-1800</point>
+        <point>60,-1400</point>
         <point>65,-1000</point>
         <point>70,-700</point>
         <point>75,-400</point>
@@ -100,21 +100,21 @@
     <!-- USB_HEADSET Media reference Volume Curve -->
         <point>1,-6400</point>
         <point>5,-6200</point>
-        <point>10,-5600</point>
-        <point>15,-5000</point>
-        <point>20,-4400</point>
-        <point>25,-3800</point>
-        <point>30,-3400</point>
-        <point>35,-3100</point>
-        <point>40,-2800</point>
-        <point>45,-2500</point>
-        <point>50,-2200</point>
-        <point>55,-1800</point>
+        <point>10,-5700</point>
+        <point>15,-5200</point>
+        <point>20,-4700</point>
+        <point>25,-4300</point>
+        <point>30,-3900</point>
+        <point>35,-3500</point>
+        <point>40,-3100</point>
+        <point>45,-2700</point>
+        <point>50,-2300</point>
+        <point>55,-1900</point>
         <point>60,-1500</point>
-        <point>65,-1200</point>
-        <point>70,-800</point>
+        <point>65,-1100</point>
+        <point>70,-700</point>
         <point>75,-400</point>
-        <point>80,-150</point>
+        <point>80,-200</point>
     </reference>
     <!-- #endif /* OPLUS_BUG_STABILITY */ -->
     <reference name="DEFAULT_MEDIA_VOLUME_CURVE_A2DP">
@@ -129,21 +129,21 @@
     #else /* OPLUS_BUG_STABILITY */ -->
         <point>1,-6400</point>
         <point>5,-5500</point>
-        <point>10,-5000</point>
-        <point>15,-4500</point>
-        <point>20,-4000</point>
-        <point>25,-3700</point>
-        <point>30,-3400</point>
-        <point>35,-3100</point>
-        <point>40,-2800</point>
-        <point>45,-2500</point>
-        <point>50,-2200</point>
-        <point>55,-1800</point>
-        <point>60,-1400</point>
+        <point>10,-5100</point>
+        <point>15,-4700</point>
+        <point>20,-4300</point>
+        <point>25,-3900</point>
+        <point>30,-3500</point>
+        <point>35,-3200</point>
+        <point>40,-2900</point>
+        <point>45,-2600</point>
+        <point>50,-2300</point>
+        <point>55,-1900</point>
+        <point>60,-1500</point>
         <point>65,-1100</point>
         <point>70,-700</point>
         <point>75,-400</point>
-        <point>80,-150</point>
+        <point>80,-200</point>
     <!-- #endif /* OPLUS_BUG_STABILITY */ -->
     </reference>
     <reference name="DEFAULT_DEVICE_CATEGORY_HEADSET_VOLUME_CURVE">
@@ -164,21 +164,21 @@
         <point>100,0</point>
     #else /* OPLUS_BUG_STABILITY */ -->
         <point>1,-7000</point>
-        <point>5,-5200</point>
-        <point>10,-4500</point>
-        <point>15,-3900</point>
-        <point>20,-3400</point>
-        <point>25,-3000</point>
-        <point>30,-2700</point>
-        <point>35,-2450</point>
-        <point>40,-2150</point>
-        <point>45,-1850</point>
-        <point>50,-1650</point>
-        <point>55,-1350</point>
-        <point>60,-1100</point>
-        <point>65,-800</point>
-        <point>70,-650</point>
-        <point>75,-400</point>
+        <point>5,-5750</point>
+        <point>10,-4850</point>
+        <point>15,-4150</point>
+        <point>20,-3500</point>
+        <point>25,-3100</point>
+        <point>30,-2750</point>
+        <point>35,-2460</point>
+        <point>40,-2180</point>
+        <point>45,-1900</point>
+        <point>50,-1670</point>
+        <point>55,-1450</point>
+        <point>60,-1130</point>
+        <point>65,-900</point>
+        <point>70,-680</point>
+        <point>75,-420</point>
         <point>80,0</point>
     <!-- #endif /* OPLUS_BUG_STABILITY */ -->
     </reference>
