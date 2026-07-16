@@ -1316,6 +1316,21 @@ vendor/firmware/gen70e00_sqe.fw
 vendor/firmware/gen70e00_zap.mbn
 vendor/firmware/gen71700_gmu.bin
 
+# Face unlock
+odm/lib64/libstfaceunlockocl_uff.so;FIX_SONAME
+
+# Face unlock firmware
+odm/firmware/uff_face.b00
+odm/firmware/uff_face.b01
+odm/firmware/uff_face.b02
+odm/firmware/uff_face.b03
+odm/firmware/uff_face.b04
+odm/firmware/uff_face.b05
+odm/firmware/uff_face.b06
+odm/firmware/uff_face.b07
+odm/firmware/uff_face.b08
+odm/firmware/uff_face.mdt
+
 # Fingerprint firmware
 odm/firmware/uff_jv.b00
 odm/firmware/uff_jv.b01
