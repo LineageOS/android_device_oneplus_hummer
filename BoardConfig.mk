@@ -4,21 +4,21 @@
 #
 
 # Partitions
-BOARD_SUPER_PARTITION_SIZE := 13329498112
+BOARD_SUPER_PARTITION_SIZE := 14077349888
 
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8750-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/dodge
+DEVICE_PATH := device/oneplus/hummer
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP5D0DL1,OP5D55L1
+TARGET_OTA_ASSERT_DEVICE := OP60EBL1
 
 # Display
-TARGET_SCREEN_DENSITY := 640
+TARGET_SCREEN_DENSITY := 560
 
 # Kernel
-TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_DODGE_DTB=y
+TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_HUMMER_DTB=y
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
@@ -29,4 +29,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/dodge/BoardConfigVendor.mk
+include vendor/oneplus/hummer/BoardConfigVendor.mk
