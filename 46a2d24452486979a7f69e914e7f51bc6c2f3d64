@@ -46,6 +46,30 @@
       },
       "revId": "46a2d24452486979a7f69e914e7f51bc6c2f3d64",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d971adfc_100a1761",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1343,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-22T17:03:17Z",
+      "side": 0,
+      "message": "Yea, that\u0027s correct.",
+      "parentUuid": "dfd7b21d_8996c2a2",
+      "range": {
+        "startLine": 1342,
+        "startChar": 0,
+        "endLine": 1343,
+        "endChar": 60
+      },
+      "revId": "46a2d24452486979a7f69e914e7f51bc6c2f3d64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
