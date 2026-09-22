@@ -16,6 +16,24 @@
       "message": "Don\u0027t forget to regen vendor.",
       "revId": "ce7773890185fed8fdc2fdf850528aed2dd0c92c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9124058b_72341c27",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37504
+      },
+      "writtenOn": "2026-09-22T17:19:32Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "e1189750_26e8e06e",
+      "revId": "ce7773890185fed8fdc2fdf850528aed2dd0c92c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
