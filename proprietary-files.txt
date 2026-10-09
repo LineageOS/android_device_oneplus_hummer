@@ -1311,6 +1311,15 @@ odm/etc/PanelChaplin/Lut3D_312
 odm/etc/PanelChaplin/panelchaplin
 vendor/etc/ltm_config_AA590_P_3_A0020_dsc_cmd_mode_panel.xml
 
+# Dolby Vision
+odm/bin/hw/dvs-aidl-service
+odm/etc/dolby/display/dolby_vision.cfg
+odm/etc/dolby/dolby_vision.cfg
+odm/etc/init/dvs-aidl-service.rc
+odm/etc/vintf/manifest/dvs-aidl-service.xml
+odm/etc/media_codecs_dolby_vision.xml:vendor/etc/media_codecs_dolby_vision.xml
+odm/lib64/vendor.dolby.dvs-V1-ndk.so
+
 # Graphics (Adreno)
 vendor/firmware/gen70e00_sqe.fw
 vendor/firmware/gen70e00_zap.mbn
