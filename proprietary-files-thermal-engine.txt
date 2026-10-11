@@ -2,6 +2,6 @@
 ## are from OnePlus Ace 5 Pro (PKR110_16.0.10.500(CN01)).
 
 # Thermal engine
-odm/etc/temperature_profile/sys_thermal_control_config.xml;EXTRACT_ONLY
+odm/etc/temperature_profile/sys_thermal_control_config.xml
 system_ext/etc/horae/horae.conf;EXTRACT_ONLY
 vendor/etc/thermal-engine.conf
