@@ -1272,14 +1272,6 @@ odm/etc/display/qdcm_calib_data_AA590_P_3_A0020_dsc_cmd_mode_panel.json
 
 # Display configurations
 my_product/vendor/etc/display_apollo_list_AA590_P_3_A0020_dsc_cmd_mode_panel.xml:vendor/etc/display_apollo_list_AA590_P_3_A0020_dsc_cmd_mode_panel.xml
-odm/etc/PanelChaplin/3D-Lut_Center_P3.txt
-odm/etc/PanelChaplin/3D-Lut_Center_sRGB.txt
-odm/etc/PanelChaplin/3D-Lut_Enhance_P3.txt
-odm/etc/PanelChaplin/3D-Lut_Enhance_sRGB.txt
-odm/etc/PanelChaplin/3D-Lut_Stand_P3.txt
-odm/etc/PanelChaplin/3D-Lut_Stand_sRGB.txt
-odm/etc/PanelChaplin/3D-Lut_StandardMode_P3.txt
-odm/etc/PanelChaplin/3D-Lut_StandardMode_sRGB.txt
 odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_1_100nit.odf
 odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_1_2nit.odf
 odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_1_max.odf
@@ -1305,9 +1297,6 @@ odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Nature_pGC.txt
 odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt
 odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt
 odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Vivid_pGC.txt
-odm/etc/PanelChaplin/AdjustValue
-odm/etc/PanelChaplin/Lut3D_311
-odm/etc/PanelChaplin/Lut3D_312
 odm/etc/PanelChaplin/panelchaplin
 vendor/etc/ltm_config_AA590_P_3_A0020_dsc_cmd_mode_panel.xml
 
