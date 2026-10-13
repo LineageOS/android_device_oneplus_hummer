@@ -1300,6 +1300,9 @@ odm/etc/PanelChaplin/AA590_P_3_A0020_dsc_cmd_mode_panel_Vivid_pGC.txt
 odm/etc/PanelChaplin/panelchaplin
 vendor/etc/ltm_config_AA590_P_3_A0020_dsc_cmd_mode_panel.xml
 
+# Display features
+odm/lib64/libPanelChaplin.so
+
 # Dolby Vision
 odm/bin/hw/dvs-aidl-service
 odm/etc/dolby/display/dolby_vision.cfg
