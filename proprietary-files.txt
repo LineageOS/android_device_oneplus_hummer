@@ -1501,5 +1501,6 @@ vendor/firmware/vpu30_2v_unsigned.mbn
 odm/etc/wifi/peach/bdwlan.elf
 odm/etc/wifi/peach/regdb.bin
 odm/etc/wifi/peach/regdb_version
+odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
 
 # vi:ft=conf
