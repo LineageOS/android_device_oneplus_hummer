@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93f3fe0a_6661d95d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-22T15:34:30Z",
+      "side": 1,
+      "message": "This needs double check",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 34
+      },
+      "revId": "b2844076d1e2bb2ae2dd487d98b3aeeac6025da6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a37393b_247fe94a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1429,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-22T15:34:30Z",
+      "side": 1,
+      "message": "Maybe you don\u0027t need all of this, since you already had local fw",
+      "range": {
+        "startLine": 1415,
+        "startChar": 0,
+        "endLine": 1429,
+        "endChar": 31
+      },
+      "revId": "b2844076d1e2bb2ae2dd487d98b3aeeac6025da6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1d031f8_ef674a3f",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1616,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-22T15:34:30Z",
+      "side": 1,
+      "message": "Maybe you don\u0027t need all, since you already had local fw",
+      "range": {
+        "startLine": 1611,
+        "startChar": 0,
+        "endLine": 1616,
+        "endChar": 37
+      },
+      "revId": "b2844076d1e2bb2ae2dd487d98b3aeeac6025da6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
