@@ -7,9 +7,22 @@ odm/etc/acdbdata/up_ve_enpuv5_ha.eai
 odm/etc/acdbdata/up_ve_enpuv5_hh.eai
 
 # ADSP modules
+odm/lib/rfsa/adsp/aiboost/signed/libQnnHtpV79Skel.so
+odm/lib/rfsa/adsp/aiboost/signed/libaiboostubwc_skel.so
 odm/lib/rfsa/adsp/aiboost/signed/libwechatsrubwc_skel.so;MODULE_SUFFIX=.aiboost
 odm/lib/rfsa/adsp/oplusmss/unsigned/libQnnHtpV79Skel.so;MODULE_SUFFIX=.aiboost
+odm/lib/rfsa/adsp/capi_v3_oprec.so
+odm/lib/rfsa/adsp/libCalculator_skel.so
+odm/lib/rfsa/adsp/libQnnHtpV79.so
+odm/lib/rfsa/adsp/libQnnHtpV79Skel.so
+odm/lib/rfsa/adsp/libQnnSaver.so
+odm/lib/rfsa/adsp/libSuperRawPost_skel.so
+odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so
+odm/lib/rfsa/adsp/libarc_htp_driver_skel.so
+odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so
+odm/lib/rfsa/adsp/libktveffect.so
 odm/lib/rfsa/adsp/libsixth_rx_v3.so
+odm/lib/rfsa/adsp/nlc_bgth_v1_5.so
 
 # Audio
 odm/lib64/liboprec_audrec.so
@@ -1337,6 +1350,30 @@ odm/etc/vintf/manifest/dvs-aidl-service.xml
 odm/etc/media_codecs_dolby_vision.xml:vendor/etc/media_codecs_dolby_vision.xml
 odm/lib64/vendor.dolby.dvs-V1-ndk.so
 
+# EVA firmware
+vendor/firmware/evass.b00
+vendor/firmware/evass.b01
+vendor/firmware/evass.b02
+vendor/firmware/evass.b03
+vendor/firmware/evass.b04
+vendor/firmware/evass.b05
+vendor/firmware/evass.b06
+vendor/firmware/evass.b07
+vendor/firmware/evass.b08
+vendor/firmware/evass.b09
+vendor/firmware/evass.b10
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+vendor/firmware/evass.b19
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
+
 # Face unlock
 odm/lib64/libstfaceunlockocl_uff.so;FIX_SONAME
 
@@ -1375,12 +1412,53 @@ odm/firmware/uff_spi.b08
 odm/firmware/uff_spi.mdt
 
 # Graphics (Adreno firmware)
+vendor/firmware/gen70900_aqe.fw
+vendor/firmware/gen70900_sqe.fw
+vendor/firmware/gen70900_zap.mbn
 vendor/firmware/gen70e00_sqe.fw
 vendor/firmware/gen70e00_zap.mbn
 vendor/firmware/gen71700_gmu.bin
+vendor/firmware/gen80000_aqe.fw
+vendor/firmware/gen80000_gmu.bin
+vendor/firmware/gen80000_sqe.fw
+vendor/firmware/gen80000_zap.mbn
+vendor/firmware/gmu_gen70900.bin
+vendor/gpu/kbc/sequence_manifest.bin
+vendor/gpu/kbc/unified_kbcs_32.bin
+vendor/gpu/kbc/unified_kbcs_64.bin
+vendor/gpu/kbc/unified_ksqs.bin
 
 # Horae
 odm/etc/horae/horae_target.conf
+
+# Neural networks
+odm/lib64/aiboost/libQnnHtp.so;MODULE_SUFFIX=.aiboost
+odm/lib64/aiboost/libQnnHtpV79Stub.so;MODULE_SUFFIX=.aiboost
+odm/lib64/aiboost/libQnnSystem.so;MODULE_SUFFIX=.aiboost
+odm/lib64/aiframe/cdsp/signed/libQnnHtpV79Skel.so;MODULE_SUFFIX=.aiframe_signed
+odm/lib64/aiframe/cdsp/unsigned/libQnnHtpV79Skel.so;MODULE_SUFFIX=.aiframe_unsigned
+odm/lib64/aiframe/libQnnHtp.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnHtpPrepare.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnHtpV79Stub.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnSystem.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libaiboost_qnn_external_delegate.so;FIX_SONAME
+odm/lib64/aiframe/libqcom_llm.so
+odm/lib64/aiframe/libtransformer_lite.so
+odm/lib64/libQnnCpu.so
+odm/lib64/libQnnGpu.so
+odm/lib64/libQnnHtp.so
+odm/lib64/libQnnHtpPrepare.so
+odm/lib64/libQnnHtpV79CalculatorStub.so
+odm/lib64/libQnnHtpV79Stub.so
+odm/lib64/libQnnSaver.so
+odm/lib64/libQnnSystem.so
+odm/lib64/libaiboost.so
+odm/lib64/libaiboost_llm.so
+odm/lib64/libaiboost_qnn_external_delegate_te.so;FIX_SONAME
+odm/lib64/libaiboost_qnn_sr.so
+odm/lib64/libaiboost_sr.so
+odm/lib64/libaiboost_te.so;FIX_SONAME
+odm/lib64/libaiboost_ubwc.so
 
 # NFC firmware
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
@@ -1532,6 +1610,10 @@ odm/etc/vibrator/vibrator_effect.json
 # VPU firmware
 vendor/firmware/vpu30_2v.mbn
 vendor/firmware/vpu30_2v_unsigned.mbn
+vendor/firmware/vpu33_4v.mbn
+vendor/firmware/vpu33_4v_unsigned.mbn
+vendor/firmware/vpu35_4v.mbn
+vendor/firmware/vpu35_4v_unsigned.mbn
 
 # WiFi
 odm/etc/wifi/peach/bdwlan.elf
